@@ -42,14 +42,35 @@ export default function Home() {
         </div>
         <div className="flex flex-col lg:flex-row gap-12 md:gap-24 w-3/4 mx-auto">
           <Bottle />
-          <p className="lg:w-11/12 text-center md:text-left text-lg md:text-3xl font-light self-center">{`Did you know that Mobil 1 Supercar 0W-40 is the first and only dexos-approved motor oil developed specifically for Corvette? The technology that helped produce every Corvette Racing win ends up in a motor oil that guarantees Corvette power and precision. `}</p>
+          <p className="lg:w-11/12 text-center md:text-left text-lg md:text-3xl font-light self-center">{`Did you know that Mobil 1 Supercar 0W-40 is the first and only dexos-approved motor oil developed specifically for Corvette? The technology that helped produce every Corvette Racing win ends up in a motor oil that guarantees Corvette power and precision.*`}</p>
         </div>
         <div id="formContainer" className="my-24 max-w-2xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">
             Sign up, stay tuned
           </h2>
-          <Form formId="127" />
+          <Form formId="130" />
         </div>
+      </div>
+      <div className="max-w-4xl mx-auto mb-4">
+        <p className="text-xs text-gray-400">
+          *Chevy Performance E-ROD engines have been granted CARB Executive
+          Orders, which allows for their installation on specific emission
+          controlled vehicles to be driven on public streets and highways. An
+          exemption is granted if the product has been determined not to cause
+          an increase in vehicle emissions from the production vehicles for
+          which the part is intended, nor otherwise cause vehicles to be
+          non-compliant with the vehicle emissions certification and
+          anti-tampering laws. For additional information, including which
+          vehicles these E-ROD engines can be installed in, please visit{" "}
+          <a
+            href="https://www.chevrolet.com/performance-parts"
+            target="_blank"
+            rel="noreferrer"
+            className="underline text-blue-400"
+          >
+            ChevroletPerformance.com.
+          </a>
+        </p>
       </div>
     </div>
   );

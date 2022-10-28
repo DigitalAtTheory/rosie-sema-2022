@@ -6,7 +6,7 @@ body {
   background: url("/photos/background.png");
 }
 
-.cog-127 {
+.cog-cognito {
   --highlight: #f51832 !important;
   --highlight-reverse: white !important;
 }
@@ -64,10 +64,9 @@ body {
   @apply block w-full border-0 p-0 text-gray-900 placeholder-gray-500/50 font-semibold focus:ring-0 sm:text-sm  !important;
 }
 
-#cog-3-label,
-#cog-2-label,
-#cog-4-label,
-#cog-5-label {
+.cog-text .cog-label,
+.cog-email .cog-label,
+.cog-number .cog-label {
   @apply block text-base font-semibold text-gray-900 visible not-sr-only !important;
   clip-path: none !important;
 }
