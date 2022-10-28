@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 body {
-  background: url("/photos/background.png");
+  background: url("/photos/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cog-cognito {
@@ -57,7 +60,7 @@ body {
 .cog-text,
 .cog-email,
 .cog-field--18-3 {
-  @apply rounded-md border border-solid border-gray-300 px-3 py-2 shadow-sm focus-within:border-[#f51832] focus-within:ring-1 focus-within:ring-[#f51832] !important;
+  @apply rounded-md border border-solid bg-white border-gray-300 px-3 py-2 shadow-sm focus-within:border-[#f51832] focus-within:ring-1 focus-within:ring-[#f51832] !important;
 }
 
 .el-input__inner {
