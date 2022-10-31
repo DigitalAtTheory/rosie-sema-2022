@@ -34,7 +34,7 @@ export default function Home() {
             smooth={true}
             duration={500}
           >
-            Sign me up
+            Count me in
           </Link>
         </div>
         <div className="md:w-3/4 mx-auto flex justify-center mb-12">
